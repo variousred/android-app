@@ -3,17 +3,22 @@ package mitchell.com;
 import android.util.Log;
 
 /**
- * A debugging class for the Android application.
+ * Bug.java - A debugging class for the Android application.
  * 
  * LOG must be true or nothing will be logged.
  * The log type (or a lower type) must be enabled for this message to be logged.
  * 
- * Enable log types in a console window by: adb shell setProp "DEBUG_TAG" "TYPE"
- * where TYPE in priority order is VERBOSE, DEBUG, INFO, WARN, ERROR, ASSERT, 
- * or SUPPRESS to suppress logging.
+ * Enable log types in a console window by typing: 
+ * adb shell setProp "log.tag.Mitchell" "TYPE"
+ * where TYPE in priority order is VERBOSE, DEBUG, INFO, WARN, ERROR,
+ * ASSERT, or SUPPRESS to suppress logging.
  * 
  * Setting a TYPE enables all types above it.
  * Default TYPE is INFO, so VERBOSE and DEBUG start out disabled.
+
+ * @author Robert Mitchell
+ * @version 1.0 - 15 January, 2012
+ * 
  */
 public final class Bug {
 
